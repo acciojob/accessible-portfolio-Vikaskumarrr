@@ -1,14 +1,29 @@
 
-/* Your CSS Code here. */
-#s1{
-	font:'Verdana',sans-serif; 
+body {
+  font-family: Arial, sans-serif;
 }
-#p1{
-	background-color: lightblue;
-	font-size: 20px;
+
+header {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
 }
-#item{
-	margin: 10px;
-	color: red;
-	background-color: black;
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+section {
+  margin: 20px 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
